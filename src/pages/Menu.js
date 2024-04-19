@@ -1,20 +1,24 @@
 import { Outlet, Link } from "react-router-dom";
+import '../index.css'
 
 const Menu = () => {
     return(
         <>
         <nav>
             <li>
-                <Link to="/">Home</Link>
+                <Link className="link" to="/">🏠</Link>
             </li>
             <li>
-                <Link to="/game">Game</Link>
+                <Link className="link" to="/qr">QR Code Generator</Link>
             </li>
             <li>
-                <Link to="/todo">Todo</Link>
+                <Link className="link" to="/game">Game</Link>
             </li>
             <li>
-                <Link to="/trivia">Trivia</Link>
+                <Link  className="link" to="/todo">Todo</Link>
+            </li>
+            <li>
+                <Link className="link" to="/trivia">Trivia</Link>
             </li>
         </nav>
 

@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Game from './pages/Game';
 import Todo from './pages/Todo';
 import Trivia from './pages/Trivia';
+import Qr from './pages/qr';
 
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Menu />}>
           <Route index element={<Home />} />
+          <Route path="Qr" element={<Qr />} />
           <Route path="Todo" element={<Todo />} />
           <Route path="Game" element={<Game />} />
           <Route path="Trivia" element={<Trivia />} />
