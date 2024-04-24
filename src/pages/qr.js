@@ -23,10 +23,10 @@ const Qr = () => {
       <input type="text"
              value={url}
              onChange={handleInputChange}
-             placehoder="Enter URL"
+             placeholder="Enter URL"
       />
 
-      <button onCLick={handleQRCodeGeneration}>Generate QR Code</button>
+      <button onClick={handleQRCodeGeneration}>Generate QR Code</button>
 
       {qrCodeData && <QRCode value={qrCodeData} size={256} level="L"/> }
 

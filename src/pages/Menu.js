@@ -4,7 +4,9 @@ import '../index.css'
 const Menu = () => {
     return(
         <>
+       
         <nav>
+        <h1>Benjamin Reacts</h1>
             <li>
                 <Link className="link" to="/">🏠</Link>
             </li>
