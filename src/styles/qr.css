@@ -3,9 +3,11 @@
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    background-color: aqua;
+    background-color:azure;
     align-items: center;
 }
+
+
 
 input {
     width: 350px; 
